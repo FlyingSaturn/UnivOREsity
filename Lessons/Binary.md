@@ -39,7 +39,7 @@ In 1854, George Boole, in his book "The Laws of Thought", stated the methods of 
 
 Modern logic inherited Boole, so much so that "Boolean Algebra" has been named after him.
 
-In 1937, [Claude Shannon's master's thesis](https://www.cs.virginia.edu/~evans/greatworks/shannon38.pdf) focused on "Switching Circuits". His paper showed how circuits can implement Boolean logic. His master’s thesis received a major academic prize at MIT and laid the foundations of digital circuit design.
+In 1937, [Claude Shannon's master's thesis](https://www.cs.virginia.edu/~evans/greatworks/shannon38.pdf) focused on "Switching Circuits". His paper showed how circuits can implement Boolean logic. His master’s thesis received a major academic prize and laid the foundations of digital circuit design.
 
 ## Introduction
 
