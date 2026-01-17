@@ -14,7 +14,9 @@ Topics to be covered in this lesson:
 
 - Origins
 - Introduction
+- What are bases?
 - Why use Binary?
+- Notation
 - How does it work?
 - Translating from binary to decimal
 - Translating from decimal to binary
@@ -43,13 +45,14 @@ In 1937, [Claude Shannon's master's thesis](https://www.cs.virginia.edu/~evans/g
 
 Binary is a system of representing numbers using only two symbols: 0 and 1. In the decimal system, 9 is followed by 10. In the world of binary, 1 is followed by 10. Binary symbols are often called "bits."
 
+## What are bases?
+
 Bases are named after the total number of unique digits used (including 0). Binary uses base 2, while the decimal system uses base 10. The base determines the place value of each digit.
 
-## Why use Binary?
+Octal and Hexadecimal number systems have bases 8 and 16, respectively. In Minecraft, the signal strength of Redstone is from 0 to 15. This is why, along with Binary, we also see Redstone circuits where Hexadecimal transmission has been used.
 
+## Notation
 
-
-The reason for using only 2 digits is that hardware can only have two states, 'on' and 'off'.  
 When talking about numbers in different bases, we must have a way to distinguish between which base we are representing that number with. 
 So to fix that problem, we prefix ``0b`` when the number is in binary and ``0d`` when its in decimal. Other bases like hexadecimal and octal use ``0x`` and ``0o`` respectively.  
 Here are the prefixes being used to distinguish which number we mean:  
@@ -58,9 +61,11 @@ Here are the prefixes being used to distinguish which number we mean:
 ``0d101 = 101 (one hundred and one)``  
 ``0x101 = 257 (two hundred and fifty seven)``
 
+Note: Formal textbooks use a subscript to the right of the number to represent the base. For example, ``0b101`` is written as (101)_2. For all intents and purposes, we will use the prefix notation, not the subscript notation. Also, ``0d`` is a convention used in this material for a decimal number.
+
 ## How does it work?
 
-In a binary system, each digit represents a power of 2, that means each digit doubles its value when going to the left. 
+In a binary system, each digit represents a power of 2; that means each digit doubles its value when going to the left. 
 The rightmost digit represents 1 (2<sup>0</sup>), the next digit to the left represents 2 (2<sup>1</sup>), and so on.  
 For example, the binary number 101 represents the decimal number ``1*2^2 + 0*2^1 + 1*2^0 = 1*4 + 0*2 + 1*1 = 4 + 1 = 5``.
 
