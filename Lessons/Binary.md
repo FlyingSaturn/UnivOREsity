@@ -90,9 +90,13 @@ Let us take 0b1010 as an example.
 | 1 | 0 | 1 | 0 |
 
 These column names correspond to powers of two: 
+
 Eights: 8 = 2<sup>3</sup>
+
 Fours: 4 = 2<sup>2</sup>
+
 Twos: 2 = 2<sup>1</sup>
+
 Ones: 1 = 2<sup>0</sup>
 
 On expressing the number in expanded form into decimal values, we get
