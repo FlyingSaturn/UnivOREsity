@@ -17,10 +17,10 @@ Topics to be covered in this lesson:
 - What are bases?
 - Why use Binary?
 - Notation
-- How does it work?
-- Translating from binary to decimal
+- How does it work? (Translating from binary to decimal)
 - Translating from decimal to binary
-- How many numbers can be represented with binary?
+- Bit width and range
+- Hexadecimal Notation
 - How does this apply to other bases?
 
 ---
@@ -63,7 +63,7 @@ Here are the prefixes being used to distinguish which number we mean:
 
 Note: Formal textbooks use a subscript to the right of the number to indicate the base. For example, ``0b101`` is written as (101)<sub>2</sub>. However, throughout this material, we will use prefix notation, not subscript notation. Also, ``0d`` is a convention used in this material for a decimal number.
 
-## How does it work?
+## How does it work? (Translating from binary to decimal)
 
 We learnt that in the decimal system, each digit represents a power of 10, which means each digit increases in value by a factor of 10 when moving to the left. The rightmost digit represents 1 (10<sup>0</sup>), the next digit to the left represents 10 (10<sup>1</sup>), and so on. Let us take 0d5432 as an example.
 
