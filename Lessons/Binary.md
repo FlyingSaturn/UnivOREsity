@@ -12,6 +12,8 @@
 
 Topics to be covered in this lesson:
 
+- Origins
+- Introduction
 - Why use Binary?
 - How does it work?
 - Translating from binary to decimal
@@ -21,9 +23,32 @@ Topics to be covered in this lesson:
 
 ---
 
+
+
+## Origins
+
+The whole concept of binary logic in computing comes from propositions. 
+
+> A proposition is a declarative sentence (that is, a sentence that declares a fact) that is either true or false, but not both. 
+
+Propositions can be classified into **true** and **false** statements, thus bearing two distinct values. The foundations of logical reasoning were first laid by Aristotle in his work on syllogisms.
+
+In 1854, George Boole, in his book "The Laws of Thought", stated the methods of producing new propositions from those that we already have. New propositions are formed from existing propositions using logical operators.
+
+Modern logic inherited Boole, so much so that "Boolean Algebra" has been named after him.
+
+In 1937, [Claude Shannon's master's thesis](https://www.cs.virginia.edu/~evans/greatworks/shannon38.pdf) focused on "Switching Circuits". His paper showed how circuits can implement Boolean logic. His master’s thesis received a major academic prize at MIT and laid the foundations of digital circuit design.
+
+## Introduction
+
+Binary is a system of representing numbers using only two symbols: 0 and 1. In the decimal system, 9 is followed by 10. In the world of binary, 1 is followed by 10. Binary symbols are often called "bits."
+
+Bases are named after the total number of unique digits used (including 0). They are essential for getting the place values of any digit given any base. Binary uses base 2, while the decimal system uses base 10. The base determines the place value of each digit.
+
 ## Why use Binary?
 
-Binary is a system of representing numbers using only two symbols: 0 and 1. These symbols are often called "bits". 
+
+
 The reason for using only 2 digits is that hardware can only have two states, 'on' and 'off'.  
 When talking about numbers in different bases, we must have a way to distinguish between which base we are representing that number with. 
 So to fix that problem, we prefix ``0b`` when the number is in binary and ``0d`` when its in decimal. Other bases like hexadecimal and octal use ``0x`` and ``0o`` respectively.  
