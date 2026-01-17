@@ -61,7 +61,7 @@ Here are the prefixes being used to distinguish which number we mean:
 ``0d101 = 101 (one hundred and one)``  
 ``0x101 = 257 (two hundred and fifty seven)``
 
-Note: Formal textbooks use a subscript to the right of the number to indicate the base. For example, ``0b101`` is written as (101)<sub>2</sub>. Throughout this material, we will use prefix notation, not subscript notation. Also, ``0d`` is a convention used in this material for a decimal number.
+Note: Formal textbooks use a subscript to the right of the number to indicate the base. For example, ``0b101`` is written as (101)<sub>2</sub>. However, throughout this material, we will use prefix notation, not subscript notation. Also, ``0d`` is a convention used in this material for a decimal number.
 
 ## How does it work?
 
