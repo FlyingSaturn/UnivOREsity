@@ -27,7 +27,7 @@ Topics to be covered in this lesson:
 
 ## Origins
 
-The whole concept of binary logic in computing comes from propositions. In the words of Kenneth H. Rosen,
+The whole concept of binary logic in computing comes from propositions. In the words of Rosen (Discrete Mathematics and Its Applications),
 
 > A proposition is a declarative sentence (that is, a sentence that declares a fact) that is either true or false, but not both. 
 
@@ -43,7 +43,7 @@ In 1937, [Claude Shannon's master's thesis](https://www.cs.virginia.edu/~evans/g
 
 Binary is a system of representing numbers using only two symbols: 0 and 1. In the decimal system, 9 is followed by 10. In the world of binary, 1 is followed by 10. Binary symbols are often called "bits."
 
-Bases are named after the total number of unique digits used (including 0). They are essential for getting the place values of any digit given any base. Binary uses base 2, while the decimal system uses base 10. The base determines the place value of each digit.
+Bases are named after the total number of unique digits used (including 0). Binary uses base 2, while the decimal system uses base 10. The base determines the place value of each digit.
 
 ## Why use Binary?
 
