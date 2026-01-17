@@ -27,7 +27,7 @@ Topics to be covered in this lesson:
 
 ## Origins
 
-The whole concept of binary logic in computing comes from propositions. 
+The whole concept of binary logic in computing comes from propositions. In the words of Rosen,
 
 > A proposition is a declarative sentence (that is, a sentence that declares a fact) that is either true or false, but not both. 
 
