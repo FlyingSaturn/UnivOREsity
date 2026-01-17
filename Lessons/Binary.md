@@ -135,21 +135,21 @@ The final binary representation is 1010.
 
 ## Bit width and range
 
-In the decimal number system, the highest digit is 9.
+In the decimal number system, the highest single digit is 9.
 
-For 3 digits, the highest number is 0d999. ``0d999 = 0d1000 - 0d1 = 10^3 - 1``
+For 3 digits, the highest number is 0d999. ``0d999 = 0d1000 - 0d1 = 10^3 - 1`` 
 
-For n digits, the highest number is 0d999...99, where 9 is repeated N times. ``0d999...99 = 10^N - 1``
+For N digits, the highest number is 0d999...99, where 9 is repeated N times. ``0d999...99 = 10^N - 1``
 
-Likewise, in the binary number system, the highest digit is 1.
+Likewise, in the binary number system, the highest single bit is 1.
 
 For 3 bits, the highest number is 0b111. ``0b111 = 0b1000 - 0b1 = 2^3 - 1``
 
-For n bits, the highest number is 0b111...11, where 1 is repeated N times. ``0b111...11 = 2^N - 1``
+For N bits, the highest number is 0b111...11, where 1 is repeated N times. ``0b111...11 = 2^N - 1``
 
-A binary number with N bits can represent 2<sup>N</sup> distinct values.
+Therefore, a binary number with N bits can represent `2^N` distinct values.
 
-For unsigned numbers:
+For binary (unsigned numbers:
 - the minimum value is ``0``
 - the maximum value is ``2^N − 1``
 
@@ -163,14 +163,6 @@ Hexadecimal (base 16) is commonly used as a compact way to represent binary valu
 
 For example:
 ``0x13 = 0001 0011``
-
-
-## How many numbers can be represented with binary?
-
-The number of unique numbers that can be represented with a certain number of bits is 2<sup>N</sup>, where N is the number of bits.  
-For example, using 4 bits, allows you to represent 2<sup>4</sup> = 16 unique combination of numbers. The minimum is the number that corresponds to the binary representation of having just zeros in the number, and the maximum is just having ones in the representation of the number.  
-The minimum number we can represent is 0, and the maximum we can represent will be 2<sup>N</sup> - 1  
-For example: using 4 bits the minimum we have is 0 and the max is 16-1 which is 15
 
 ## How does this apply to other bases?
 
