@@ -65,9 +65,46 @@ Note: Formal textbooks use a subscript to the right of the number to indicate th
 
 ## How does it work?
 
-In a binary system, each digit represents a power of 2; that means each digit doubles its value when going to the left. 
+We learnt that in the decimal system, each digit represents a power of 10, which means each digit increases in value by a factor of 10 when moving to the left. The rightmost digit represents 1 (10<sup>0</sup>), the next digit to the left represents 10 (10<sup>1</sup>), and so on. Let us take 0d5432 as an example.
+
+| Th | H | T | O |
+| --- | --- | --- | --- |
+| 5 | 4 | 3 | 2
+
+On expressing the number in expanded form, we get
+
+```
+0d5432
+= 5000 + 400 + 30 + 2
+= 5 * 1000 + 4 * 100 + 3 * 10 + 2 * 1
+= 5 * 10^3 + 4 * 10^2 + 3 * 10^1 + 2 * 10^0.
+```
+
+Likewise, in a binary system, each digit doubles its value when going to the left. 
+
 The rightmost digit represents 1 (2<sup>0</sup>), the next digit to the left represents 2 (2<sup>1</sup>), and so on.  
-For example, the binary number 101 represents the decimal number ``1*2^2 + 0*2^1 + 1*2^0 = 1*4 + 0*2 + 1*1 = 4 + 1 = 5``.
+Let us take 0b1010 as an example.
+
+| Eights | Fours | Twos | Ones |
+| --- | --- | --- | --- |
+| 1 | 0 | 1 | 0 |
+
+These column names correspond to powers of two: 
+Eights: 8 = 2<sup>3</sup>
+Fours: 4 = 2<sup>2</sup>
+Twos: 2 = 2<sup>1</sup>
+Ones: 1 = 2<sup>0</sup>
+
+On expressing the number in expanded form into decimal values, we get
+
+```
+0b1010
+= 1 * 8 + 0 * 4 + 1 * 2 + 0 * 1
+= 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0
+```
+0b1010 is 0d10.
+
+Another example: the binary number 101 represents the decimal number ``1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 1 * 4 + 0 * 2 + 1 * 1 = 4 + 1 = 5``.
 
 ## Translating from decimal to binary
 
