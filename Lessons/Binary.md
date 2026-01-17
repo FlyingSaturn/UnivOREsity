@@ -133,6 +133,38 @@ For example, to translate the decimal number 10 to binary, you would do the foll
 
 The final binary representation is 1010.
 
+## Bit width and range
+
+In the decimal number system, the highest digit is 9.
+
+For 3 digits, the highest number is 0d999. ``0d999 = 0d1000 - 0d1 = 10^3 - 1``
+
+For n digits, the highest number is 0d999...99, where 9 is repeated N times. ``0d999...99 = 10^N - 1``
+
+Likewise, in the binary number system, the highest digit is 1.
+
+For 3 bits, the highest number is 0b111. ``0b111 = 0b1000 - 0b1 = 2^3 - 1``
+
+For n bits, the highest number is 0b111...11, where 1 is repeated N times. ``0b111...11 = 2^N - 1``
+
+A binary number with N bits can represent 2<sup>N</sup> distinct values.
+
+For unsigned numbers:
+- the minimum value is ``0``
+- the maximum value is ``2^N − 1``
+
+For example, with 4 bits:
+- minimum = 0b0000 = 0
+- maximum = 0b1111 = 15
+
+## Hexadecimal notation
+
+Hexadecimal (base 16) is commonly used as a compact way to represent binary values. Each hexadecimal digit corresponds to exactly 4 binary bits.
+
+For example:
+``0x13 = 0001 0011``
+
+
 ## How many numbers can be represented with binary?
 
 The number of unique numbers that can be represented with a certain number of bits is 2<sup>N</sup>, where N is the number of bits.  
