@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- [Nothing](Boolean%20Logic.md#boolean-logic)
+- [Binary](Binary.md#binary)
 
 ---
 
