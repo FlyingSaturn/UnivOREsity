@@ -178,4 +178,5 @@ The representation of 1 is ``0b0001``, so we join our representations, and we ge
 
 This lesson is over, however here is a list of topics recommended learning next:
 
+- [Boolean Logic](Boolean%20Logic.md#boolean-logic)
 - [Binary addition](Binary%20Addition.md#binary-addition)
